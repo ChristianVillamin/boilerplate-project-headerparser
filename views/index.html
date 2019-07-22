@@ -1,36 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Request Header Parser Microservice</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Request Header Parser Microservice</h1>
+      <p style="text-align: center">
+          A
+          <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+          API Project by
+          <a href="https://twitter.com/villamin_c" target="_blank">@villamin_c</a>
+      </p>
 
-<html>
+      <h2>Usage</h2>
+      <p class="desc" style="text-align: center"><b>GET</b> 
+        <code></code><a href="https://cv-parser.glitch.me/api/whoami" target="_blank"
+          >/api/whoami</a
+        ></code>
+        <br>
+        Responds with JSON format of your IP Address, Language Preference, and System Infos
+      </p>
+      <h2>Example Output</h2>
 
-   <head>
-      <title>Request Header Parser</title>
-      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-      <link href="style.css" rel="stylesheet" type="text/css">
-   </head>
+      <p class="desc">
+        <code
+          >{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",
+          "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0)
+          Gecko/20100101 Firefox/50.0"}</code
+        >
+      </p>
 
-   <body>
-      <div class="container">
-        <h2>API Project: Request Header Parser Microservice</h2>
-        <h3>User Story: </h3>
-        1. I can get the IP address, preferred languages (from header <code>Accept-Language</code>)<br> and system infos (from header <code>User-Agent</code>) for my device.
-
-        <h3>Example Usage:</h3>
-        <p>
-          [base url]/api/whoami
-        </p>
-
-        <h3>Example Output:</h3>
-        <p>
-          <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
-        </p>
-      </div>
-      <div class="footer">
-        <p>
-          by <a href="http://www.freecodecamp.com">freeCodeCamp</a> | <a href="https://hyperdev.com/#!/remix/FCC_API_header_bplate/8c449aa9-a80c-47ad-8142-8da90f658731">Click here to Remix</a>
-        </p>
-      </div>
-   </body>
-
-
+      <h2>User Story</h2>
+      <p class="desc">
+        I can get the IP address, preferred languages (from header
+        Accept-Language) and system infos (from header User-Agent) for my
+        device.
+      </p>
+    </div>
+  </body>
 </html>

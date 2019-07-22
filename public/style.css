@@ -1,53 +1,40 @@
-/****** Main Styling ******/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  background: lemonchiffon;
+}
+#container {
+  background: white;
+  width: 90%;
+  max-width: 1200px;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 1px 1px 3px gray;
+  margin-top: 2rem;
 }
 
-.container {
-	padding: 0;
-	margin-top: 40px;
+h1 {
+  text-align: center;
 }
 
-h3 {
-  margin-top: 30px;
+h2 {
+  margin: 1.25rem 0 0.35rem 0;
 }
 
-.footer {
-	margin-top: 40px;
+.desc {
+  background: linen;
+  margin-left: 2rem;
+  text-indent: 2rem;
+  padding: 0.5rem 0;
 }
 
-.user-stories {
-  position: relative;
-  text-align: justify;
-  max-width: 700px;
-  margin: 15px auto;
-}
 code {
-  font-family: monospace;
-  padding: 2px;
-  color: black;
-  background-color: #fff;
-}
-ol {
-	list-style-position: outside;
-}
-ul {
-	list-style-type: none;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-.user-stories li {
-  margin-bottom: 1em;
-}
-
-a {
-	color: #2574A9;
+  background: rgba(0, 0, 0, 0.1);
 }
