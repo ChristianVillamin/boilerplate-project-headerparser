@@ -10,6 +10,7 @@
 body {
   background: lemonchiffon;
 }
+
 #container {
   background: white;
   width: 90%;
@@ -37,4 +38,16 @@ h2 {
 
 code {
   background: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+
+  .desc {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    text-indent: 1rem;
+  }
 }
